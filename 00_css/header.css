@@ -42,7 +42,8 @@
 
 .central-column>.navbar-wrapper>.nav-item {
     font-size: 1.25em;
-    text-decoration: underline transparent;
+    text-decoration: underline 2.5px transparent;
+    text-underline-offset: 4px;
     transition: 0.4s;
 }
 
