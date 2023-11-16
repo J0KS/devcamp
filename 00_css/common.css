@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 900;
+    margin: 0;
+    color: white;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+strong {
+    font-weight: 600;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.footer-wrapper > .footer-item {
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+    background-color: #36383f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border: solid 1px #b3b3b3;
+}
+
+.footer-wrapper > .footer-item:hover {
+    cursor: pointer;
+}
+
+.footer-wrapper > .footer-item:hover strong {
+    cursor: pointer;
+    color: #47cf73;
+}
+
+.footer-wrapper > .footer-item strong{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    font-size: 1.2em;
+    transition: 0.4s;
+}

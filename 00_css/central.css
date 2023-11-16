@@ -1,0 +1,86 @@
+.central-wrapper {
+    background-image: linear-gradient(to bottom right, #4d4d4d, black);
+    height: 100%;
+}
+
+.central-wrapper > .columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 70px;
+}
+
+.central-wrapper > .columns-wrapper > .left-column {
+    width: 50%;
+    padding-left: 70px;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-top h2 {
+    font-weight: 100;
+    font-size: 3.5em;
+    color: #dbd9d9;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-mid h6 {
+    font-weight: 100;
+    font-size: 3.1em;
+    color: #b3b3b3;
+}
+
+/* Ezkerreko zutabea - botoiak */
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-bottom {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-bottom  > .sign-up button {
+    background-color: #47cf73;
+    transition: 0.4s;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-bottom  > .sign-up button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-bottom  > .learn-more button {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.central-wrapper > .columns-wrapper > .left-column > .left-column-bottom  > .learn-more button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Eskumako zutabea */
+
+.central-wrapper > .columns-wrapper > .right-column {
+    width: 45%;
+}
+
+.central-wrapper > .columns-wrapper > .right-column .right-column-img  {
+    margin-bottom: -3.5px;  
+}
+
+.central-wrapper > .columns-wrapper > .right-column .right-column-img img {
+    width: 100%;
+    box-shadow: -2px 11px 33px 7px rgba(0,0,0,0.84);
+}
+
+.central-wrapper > .columns-wrapper > .right-column > .right-column-text {
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.central-wrapper > .columns-wrapper > .right-column > .right-column-text span {
+    color: #56d4fc;
+}
