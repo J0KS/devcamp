@@ -1,0 +1,5 @@
+In the web page of https://timmyomahony.com/
+
+Color 1 --> rgb(240,240,232)
+Color 2 (a links) --> rgb(114, 100, 92) 
+Color 3 (For black text) --> rgb(0,0,0)

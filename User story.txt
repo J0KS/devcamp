@@ -1,0 +1,11 @@
+The page I've chosen is "Google.com"
+
+There are two main user stories:
+
+1- The guest user who has no account with google who is only going to be able to search for info in the search bar 
+2- The registered user who is going to be able to log in and use the different google apps like: gmail, google drive, etc.
+
+Both users will have "sub-users" which will have additional an additional user story. For example, there will be user that
+will be interested on applying filters to their search or limiting the results to certain locations/languages os their interest.
+The developer should also take that into consideration and make accesible this parameters to these sub-users who would like to apply
+these specific parameters to their searchs.
